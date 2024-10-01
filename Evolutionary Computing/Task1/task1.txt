@@ -1,0 +1,13 @@
+Task 1. Minigrid envs PPO parameters tuning.
+The goal: be able to launch experiments, build tensorboard logs and analyse the results.
+Instruction:
+1. prepare a conda python environment with required libraries (gymnasium, pytorch, stable-baselines3, minigrid)
+2. install minigrid library https://minigrid.farama.org/content/basic_usage/
+3. according to assigned list take env assigned to you: env = DistShift, parameter -> batch_size = 64 -> 256
+4. take an example from minigrid documentation
+5. Launch experiements with PPO algorithm, add tensorboard logs
+6. change PPO parameters according to ones that were assigned to you (from google doc). There is a range that you can use to tune.
+7. Launch multiple times for each of parameter value (about 3 times)
+8. Collect tensorboard plots
+9. Put the code, text description and plots in Google Colab ipython file.
+10. Send me a link to your Google Colab to email with topic: "rl_lab1_surname_name"
