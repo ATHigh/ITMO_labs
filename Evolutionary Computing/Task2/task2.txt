@@ -1,0 +1,3 @@
+RLLib with custom environment and custom callbacks.
+The goal is to combine files in Google Colab, train custom version of CartPoleLeftRight with RLLib.
+As a result you should show Tensorboard logs and video or gif with trained result.
