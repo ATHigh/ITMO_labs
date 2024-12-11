@@ -1,0 +1,6 @@
+,Model,Custom_Metric,MSE,RMSE,MAPE,SMAPE
+0,HistGradientBoosting,0.95,50.01,7.07,0.4,0.53
+1,KNeighbors,1.0,48.55,6.97,0.42,0.56
+2,LGBM,1.07,58.57,7.65,0.43,0.57
+3,CatBoost,0.96,50.23,7.09,0.4,0.54
+4,MLP,0.95,48.36,6.95,0.39,0.52
