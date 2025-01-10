@@ -12,7 +12,7 @@ The system supports various file formats, including PDFs, images, text, code
 and LaTeX files, with enhanced preprocessing using OCR
 and embeddings for efficient information retrieval.
 
-As knowledge base from https://www.kaggle.com/datasets/timoboz/data-science-cheat-sheets
+As [knowledge base](https://www.kaggle.com/datasets/timoboz/data-science-cheat-sheets)
 files connected with various topics were taken.
 
 [Langchain](https://python.langchain.com/docs/tutorials/rag/#detailed-walkthrough) library was used as simple and user-friendly framework to make
