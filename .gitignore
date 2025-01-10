@@ -13,6 +13,9 @@ gen
 *.jpeg
 *.gif
 
+!rag_concepts-4499b260d1053838a3e361fb54f376ec.png
+!test.png
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
