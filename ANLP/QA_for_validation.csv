@@ -1,0 +1,74 @@
+﻿question;grounded_true
+How to install Ansible?;"To install Ansible in Debian Linux, follow the following steps: #Add Ansible repository
+$ sudo apt-add-repository ppa: ansible/ansible
+#Run the update command $ sudo apt-get update
+#Install Ansible package $ sudo apt-get install ansible
+#Check Ansible Version
+$ ansible -version"
+What is Ansible?;Ansible is a continuous deployment and configuration tool which provides large productivity gains to a wide variety of automation challenges.
+What is Kubernetes?;Kubernetes is a platform for managing containerized workloads. Kubernetes orchestratescomputing, networking and storage to provide a seamless portability across infrastructure providers.
+What is DataWarehouse?;"The data warehouse is a ""schema-on-load"" approach because the data schema must be defined and built prior to loading data into the data warehouse. Without an underlying data model, the BI tools will not work."
+Describe engagement procces in BI?;"Step 1: Build the Data Model
+Step 2: Define The Report
+Step 3: Generate SQL commands
+Step 4: Create Report"
+What is Workflow? What workflow procces can be?;"The workflow is a sequence of three steps aiming at producing high- quality data and taking into account all the criteria we’ve talked about.
+1. Inspection: Detect unexpected, incorrect, and inconsistent data.
+2. Cleaning: Fix or remove the anomalies discovered.
+3. Verifying: After cleaning, the results are inspected to verify correctness.
+4. Reporting: A report about the changes made and the quality of the currently stored data is recorded."
+What I should do in EDA analyse before using linear regression?;"To use linear regression for modelling,its necessary to remove correlated variables to improve your model.One can find correlations using pandas “.corr()” function and can visualize the correlation matrix using a heatmap in seaborn.
+Dark shades represents positive correlation while lighter shades represents negative correlation.
+If you set annot=True, you’ll get values by which features are correlated to each other in grid-cells."
+How to group data and use aggregates in SQL?;"SELECT <Column List>, <Aggregate Function>(<Column Name>)
+FROM <Table Name>
+WHERE <Search Condition>
+GROUP BY <Column List>
+Example:
+SELECT LastName, SUM(OrderValue)
+FROM Orders
+WHERE OrderDate > '10/10/2010'
+GROUP BY LastNam"
+Give definition and example of standard form of a linear ODE?;"The standard form of a second-order linear ODE is expressed with p, q and r known functions of x such that:
+y′′ + p(x)y′ + q(x)y = r(x)
+for which the total solution y is the sum of a homogeneous solution yh and a particular solution
+yp: y = yh + yp"
+Give a formula of cousine addition in trigonometry?;Cosine addition formula: cos(a + b) = cos(a) cos(b) − sin(a) sin(b)
+What is Integral, give an example?;"Integral – Given a function f and an interval [a,b], the integral of f over [a,b], noted ab f (x)dx, is the signed area of the region in the xy-plane that is bounded by the graph of f, the x-axis and the vertical lines x = a and x = b, and can be computed with the primitive of f as follows:
+f(x)dx = F(b) − F(a) a"
+What datatypes can be in python?;"Numbers: a=2(Integer), b=2.0(Float) , c=1+2j(Complex)
+List: a=[1,2,3,’Word’]
+Tuple: a= (1,2,4)
+String: a=“New String”
+Sets: a= {2,3,4,5}
+Dictionary: x= {‘a’: [1,2],‘b’: [4,6]}"
+What benefits of using OLAP system?;"OLAP creates a single platform for all type of business analytical needs which
+includes planning, budgeting, forecasting, and analysis.
+The main benefit of OLAP is the consistency of information and calculations.
+Easily apply security restrictions on users and objects to comply with
+regulations and protect sensitive data."
+What is Keras?;Keras is a powerful and easy-to-use deep learning library for Theano and TenserFlow that provides a high-level neural networks API to develop and evaluate deep learning models.
+Bring a basic example of Keras.;">>> import numpy as np
+>>> from keras.models import Sequential
+>>> from keras.layers import Dense
+>>> data = np.random.random((1000,100))
+>>> labels = np.random.randint(2,size=(1000,1)) >>> model = Sequential()
+>>> model.add(Dense(32,
+activation='relu', input_dim=100))
+>>> model.add(Dense(1, activation='sigmoid')) >>> model.compile(optimizer='rmsprop',
+loss='binary_crossentropy', metrics=['accuracy'])"
+Bring definition of Determinant.;"The determinant of a square matrix A ∈ Rn×n, noted |A| or det(A) is expressed recursively in terms of A\i,\j, which is the matrix A without its ith row and jth column, as follows:
+n
+det(A) = |A| = X(−1)i+j ai,j |A\i,\j |
+j=1
+A is invertible if and only if |A| ̸= 0. Also, |AB| = |A||B| and |AT | = |A|."
+Bring TOP 5 python questions.;"Q1. What is the difference between list and tuples in Python?
+Q2. What are the key features of Python?
+Q3. What type of language is python? Programming or scripting?
+Q4. How is Python an interpreted language?
+Q5. What is pep 8?"
+What is the difference between strong AI and weak AI?;The difference between the two is just like the terms sound. Strong AI can successfully imitate human intelligence and is at the core of advanced robotics. Weak AI can only predict specific characteristics that resemble human intelligence. Alexa and Siri are excellent examples of weak AI. 
+Give definition of Big-O Notation.;The Big-O notation is at its heart a mathematical notation, used to compare the rate of convergence of functions. Let n -> f(n) and n -> g(n) be functions defined over the natural numbers. Then we say that f = O(g) if and only if f(n)/g(n) is bounded when n approaches infinity. In other words, f = O(g) if and only if there exists a constant A, such that for all n, f(n)/g(n) <= A.
+What are independent events?;"IndependentEvents AandBareindependentifknowingwhether A occurred gives no information about whether B occurred. More formally, A and B (which have nonzero probability) are independent if and only if one of the following equivalent statements holds:
+P (A ∩ B) = P (A)P (B) P(A|B) = P(A)
+P (B|A) = P (B)"
