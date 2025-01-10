@@ -1,6 +1,6 @@
 # The Ultimate CheatSheet RAG System
 
-![Project Banner](rag_concepts-4499b260d1053838a3e361fb54f376ec.png)
+![Project Banner](https://github.com/ATHigh/ITMO_labs/blob/a3e436477f96150df8297ab9ee40dbd8243321a6/ANLP/rag_concepts-4499b260d1053838a3e361fb54f376ec.png)
 <small>Image source: https://python.langchain.com/docs/concepts/rag/</small>
 
 ## Description
@@ -32,7 +32,7 @@ Here you will find 2 ways of designed RAG system:
 > --psm 12 --oem 2 -c textord_paragraph_text_based=0
 
 ## Raw Example of Implementation
-![Example Implementation](test.png)
+![Example Implementation](https://github.com/ATHigh/ITMO_labs/blob/a3e436477f96150df8297ab9ee40dbd8243321a6/ANLP/test.png)
 
 ## Validation
 
