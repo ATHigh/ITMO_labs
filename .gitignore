@@ -13,6 +13,9 @@ gen
 *.jpeg
 *.gif
 
+ANLP/test.png
+ANLP/rag_concepts-4499b260d1053838a3e361fb54f376ec.png
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
