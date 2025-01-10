@@ -13,8 +13,8 @@ gen
 *.jpeg
 *.gif
 
-ANLP/test.png
-ANLP/rag_concepts-4499b260d1053838a3e361fb54f376ec.png
+https://github.com/ATHigh/ITMO_labs/blob/a3e436477f96150df8297ab9ee40dbd8243321a6/ANLP/test.png
+https://github.com/ATHigh/ITMO_labs/blob/a3e436477f96150df8297ab9ee40dbd8243321a6/ANLP/rag_concepts-4499b260d1053838a3e361fb54f376ec.png
 
 ### Python template
 # Byte-compiled / optimized / DLL files
