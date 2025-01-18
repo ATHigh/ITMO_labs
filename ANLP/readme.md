@@ -29,8 +29,14 @@ Here you will find 2 ways of designed RAG system:
 - **Text2text model**: `google/flan-t5-large` (783M params)
 - **PDF & image processing**: `PyMuPDFLoader` and `Tesseract OCR` for scanned pages or images.
 
-## Example of Implementation
+## Example of Implementation and Workflow
 ![Example Implementation](https://github.com/ATHigh/ITMO_labs/blob/a3e436477f96150df8297ab9ee40dbd8243321a6/ANLP/test.png)
+
+1. **Load** Documents and Extract Text
+2. **Split** into smaller chunks
+3. **Store**: using a VectorStore and Embeddings model.
+4. **Retrieve**: Given a user input, relevant splits are retrieved from storage using a Retriever. 
+5. **Generate**: A ChatModel / LLM produces an answer using a prompt that includes both the question with the retrieved data
 
 ## Validation
 
