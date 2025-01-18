@@ -34,8 +34,8 @@ Here you will find 2 ways of designed RAG system:
 
 1. **Load** Documents and Extract Text
 2. **Split** into smaller chunks
-3. **Store**: using a VectorStore and Embeddings model.
-4. **Retrieve**: Given a user input, relevant splits are retrieved from storage using a Retriever. 
+3. **Store**: using a VectorStore and Embeddings model
+4. **Retrieve**: Given a user input, relevant splits are retrieved from storage using a Retriever 
 5. **Generate**: A ChatModel / LLM produces an answer using a prompt that includes both the question with the retrieved data
 
 ## Validation
