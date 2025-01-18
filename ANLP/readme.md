@@ -43,8 +43,8 @@ Here you will find 2 ways of designed RAG system:
 To validate the accurate answers of RAG system several questions were taken
 according to the knowledge base. File QA_for_validation.csv consists of 20
 questions with different types of answers. As a result:
-- Average time for answer: **__~15.20 sec__**
-- Accuracy: **__65%__** were pretty good
+- **Average time for answer**: ~15.20 sec
+- **Accuracy**: 65% satisfactory answers
 
 ## TO DO:
 - [ ] Enhance multi-modal capabilities for additional file types.
