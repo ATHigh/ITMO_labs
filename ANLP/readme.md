@@ -24,24 +24,21 @@ Here you will find 2 ways of designed RAG system:
 
 ## Used Tools
 
-- Vector store - **FAISS**
-- Embeddings - **sentence-transformers/all-MiniLM-L6-v2** (22.7M params)
-- Text2text model - **google/flan-t5-large** (783M params)
-- Image processing - **PyMuPDFLoader**
-- OCR - **tesseract**
-> --psm 12 --oem 2 -c textord_paragraph_text_based=0
+- **Vector store**: `FAISS`
+- **Embeddings**: `sentence-transformers/all-MiniLM-L6-v2` (22.7M params)
+- **Text2text model**: `google/flan-t5-large` (783M params)
+- **PDF & image processing**: `PyMuPDFLoader` and `Tesseract OCR` for scanned pages or images.
 
-## Raw Example of Implementation
+## Example of Implementation
 ![Example Implementation](https://github.com/ATHigh/ITMO_labs/blob/a3e436477f96150df8297ab9ee40dbd8243321a6/ANLP/test.png)
 
 ## Validation
 
 To validate the accurate answers of RAG system several questions were taken
 according to the knowledge base. File QA_for_validation.csv consists of 20
-questions with different types of answers.
-
-As a result, average time for answer was **__15.20 sec__** and from 20 questions
-only **__13 were pretty good (65%)__**.
+questions with different types of answers. As a result:
+- Average time for answer: **__~15.20 sec__**
+- Accuracy: **__65%__** were pretty good
 
 ## TO DO:
 - [ ] Enhance multi-modal capabilities for additional file types.
